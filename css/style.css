@@ -1,3 +1,62 @@
+body{
+	padding: 0;
+	width: 100%;
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+    display: block;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.row{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+h1{
+	font-size: 50px;
+}
+
+h2{
+	font-size: 20px;
+}
+
+hr{
+	background-color: white;
+	height: 2px;
+	width: 30%;
+	border: none;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.list-inline{
+	text-align: center;
+}
+
+.list-inline li{
+	border-radius: 10px;
+	border: 1px solid white;
+	height: 40px;
+	width: 150px;
+	display: inline-block;
+	background: white;
+}
+/*
+*/
 .vcenter {
     display: inline-block;
     vertical-align: middle;
