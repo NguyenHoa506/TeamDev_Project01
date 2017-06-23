@@ -8,7 +8,7 @@ body{
 	width: 100%;
     display: block;
     overflow-x: hidden;
-    top: 0;
+    to p: 0;
     left: 0;
     margin: 0;
     padding: 0;
@@ -43,6 +43,8 @@ a{
 	color: black;
 }
 
+/*
+
 .list-inline{
 	text-align: center;
 }
@@ -55,7 +57,7 @@ a{
 	display: inline-block;
 	background: white;
 }
-/*
+
 */
 .vcenter {
     display: inline-block;
