@@ -1,0 +1,37 @@
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.h2-connect {
+	font-size: 40px;
+	color: white;
+}
+
+span.link-text {
+	font-size: 14px;
+}
+
+ul.list-inline {
+	margin-bottom: 0;
+}
+.h2-connect {
+	text-shadow: 2px 2px 4px #000000;
+	margin: 0;
+}
+
+.connect-start {
+	background-image: url("../img/banner-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 0;
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+
+.footer {
+	margin: 5em auto;
+}
