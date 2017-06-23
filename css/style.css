@@ -31,17 +31,16 @@ h2{
 	font-size: 20px;
 }
 
-hr{
-	background-color: white;
-	height: 2px;
-	width: 30%;
-	border: none;
-}
+
 
 a{
 	text-decoration: none;
 	color: black;
 }
+
+
+
+
 
 
 .vcenter {
@@ -64,7 +63,7 @@ ul.list-inline {
 }
 .h2-connect {
 	text-shadow: 2px 2px 4px #000000;
-	margin: 0;
+	margin-bottom: 1em;
 }
 
 .connect-start {
@@ -91,39 +90,9 @@ ul.list-inline {
 	margin-right: 5px; 
 	
 }
-#right{
-	float: left; 
-	text-align: center;
-	padding: 30px 50px 30px 30px;
-	margin-right: 0px; 
-	margin-left: 5px;
-	max-height: 200px;
-	max-width:  450px;
-	max-height: 200px;
-}
-#left1{
-	float: left;
-	padding: 30px 170px 30px 140px;
-	margin-right: 0px; 
-	margin-top: 0px;
-	background-color: #ebebe0;
-	max-width: 600px;
-}
-#right1{
-	float: left; 
-	text-align: center;
-	padding: 30px 50px 30px 30px;
-	margin-right: 0px; 
-	margin-left: 0px;
-	max-height: 350px;
-	margin-bottom: 0px;
-	max-width:  550px;
-}
-.img-responsive{
-	padding: 30px 30px 30px 100px;
-	width: auto;
-	height: 300px;
-}
+
+
+
 #row3{
 	background-color: white;
 }
