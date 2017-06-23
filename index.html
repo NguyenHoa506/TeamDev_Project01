@@ -11,8 +11,36 @@
 <body>
 <div class="container">
 
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="col-md-12 col-sm-12">
+				<div class="row">
+					<div class="col-md-10 col-sm-12 col-md-offset-1">
+						<div class="container-fluid">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand logo" href="#"><strong class="logo">Start Bootstrap</strong></a>
+							</div>
+							<div id="navbar" class="navbar-collapse collapse">
+								<ul class="nav navbar-nav navbar-right">
+									<li class="active link_home"><a href="#About"><strong class="menu">About</strong></a></li>
+									<li><a href="#Service" class="link_service"><strong class="menu">Service</strong></a></li>
+									<li><a href="#Contact" class="link_portfolio"><strong class="menu">Contact</strong></a></li>
+								</ul>
+							</div><!--/.nav-collapse -->
+						</div><!--/.container-fluid -->
+					</div>
+				</div>
+			</div>
+		</nav>
+
 <!-- Hoa -->
-	<div class="col-md-12" style="background: url('http://bootstrapmade.com/demo/themes/Tempo/img/banner-bg.jpg'); width: 100%; background-size: 100%;height: 350px">
+	<div class="col-md-12" id="About" style="background: url('http://bootstrapmade.com/demo/themes/Tempo/img/banner-bg.jpg'); width: 100%; background-size: 100%;height: 350px; padding-top: 4em;">
 		<div class="row" style="text-align: center; color: white">
 			<h1>Landing Page</h1>
 			<h2>A Template by Start Boostrap</h2>
@@ -30,10 +58,11 @@
 		
 	</div>
 
-	<div class="row" style="background:#f8f8f8">
-		<div class="col-md-10 col-md-offset-1">
-			<div class="row" style="margin-top:50px">
-				<div class="col-md-5 col-xs-10 col-xs-offset-1">
+	<div class="col-md-12" id="Service"  style="background:#f8f8f8; padding-top: 5em;">
+		
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="col-md-5 col-xs-10 col-xs-offset-1" >
 					<hr align="left" style="background:gray;height:3px">
 					<h2 style="font-size: 30px">Death to the Stock Photo: Special Thanks</h2>
 					A special thanks to <a href="http://join.deathtothestockphoto.com/" target="_blank" style="color: #337ab7">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.
@@ -54,7 +83,7 @@
 
 	<!--Cai nay cua Lam-Cam dung vao-->
 	
-		<div class="col-md-12 col-sm-12- col-xs-12 connect-start">
+		<div class="col-md-12 col-sm-12- col-xs-12 connect-start" id="Contact">
 			<div class="row">
 				<div class="col-md-6 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
 					<h2 class="h2-connect"><strong>Connect to Start Bootstrap:</strong></h2>
@@ -72,11 +101,14 @@
 
 		
 	</div>
-	<div class="col-md-12 col-sm-12 col-xs-12 footer">
+	<div class="col-md-12 col-sm-12 col-xs-12 footer text-center">
 			<ul class="list-inline">
 				<li><a href="#"><strong>Home</strong></a></li>
+				<li><strong>.</strong></li>
 				<li><a href="#"><strong>About</strong></a></li>
+				<li><strong>.</strong></li>
 				<li><a href="#"><strong>Service</strong></a></li>
+				<li><strong>.</strong></li>
 				<li><a href="#"><strong>Contact</strong></a></li>
 			</ul>
 			<span>Copyright © Your Company 2014. All Rights Reserved</span>
